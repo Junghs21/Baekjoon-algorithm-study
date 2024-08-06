@@ -39,7 +39,8 @@ int main() {
 		int right = sanggeunCard.size() - 1;		
 
 		while ((left <= right) && !(result[i])) {
-			int mid = left + (right - left) / 2;
+			//int mid = left + (right - left) / 2;
+			int mid = (left + right) / 2;
 
 			if (CardNums[i] == sanggeunCard[mid]) {
 				result[i] = true;
