@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 void hanoi(int n, int start, int sub, int end) {
 	if (n == 1) {
 		cout << start << " " << end << "\n";
